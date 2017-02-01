@@ -3,7 +3,7 @@
 ## Summary ##
 
 This Payment Gateway modules allow you to integrate [FasaPay](https://www.fasapay.com) with the WHMCS
-platform.
+platform. Currently only support __USD__ as currency. 
 
 ## Install Guide ##
 

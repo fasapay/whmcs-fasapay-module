@@ -62,6 +62,17 @@ if ($hash != hash('sha256',"$paidto:$paidby:$store:$paymentAmount:$paymentFee:$f
 }
 
 /**
+* Validate Payment data
+**/
+if($gatewayParams['fp_account'] != $paidto
+  || $gatewayParams['fp_store'] != $store
+  || 'USD' != $currency
+){
+  $transactionStatus = 'Data Verification Failure';
+  $success = false;
+}
+
+/**
  * Validate Callback Invoice ID.
  *
  * Checks invoice ID is a valid invoice number. Note it will count an

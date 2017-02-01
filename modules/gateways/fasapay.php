@@ -80,6 +80,16 @@ function fasapay_config()
             'Default' => 'WHMCS Store',
             'Description' => 'Enter your Store name here. Please use the same name as the one defined in your FasaPay Member Area > SCI > Store ',
         ),
+//        'fp_currency' => array(
+//            'FriendlyName' => 'FasaPay Store Name',
+//            'Type' => 'dropdown',
+//           'Options' => array(
+//                'IDR'=>'IDR',
+//                'USD'=>'USD'
+//            ),
+//            'Default' => 'USD',
+//            'Description' => 'Enter your Store name here. Please use the same name as the one defined in your FasaPay Member Area > SCI > Store ',
+//        ),
         // a password field type allows for masked text input
         'fp_sword' => array(
             'FriendlyName' => 'FasaPay Store Secret Word',
@@ -124,7 +134,7 @@ function fasapay_link($params)
     $invoiceId = $params['invoiceid'];
     $description = $params["description"];
     $amount = $params['amount'];
-    $currencyCode = $params['currency'];
+    $currencyCode = 'USD';
 
     // Client Parameters
     $firstname = $params['clientdetails']['firstname'];
