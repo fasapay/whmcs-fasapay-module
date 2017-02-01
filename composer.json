@@ -1,0 +1,27 @@
+{
+    "name": "fasapay/whmcs-fasapay-module",
+    "description": "FasaPay Payment Gateway Module for the WHMCS Billing Automation Platform",
+    "keywords": [
+        "whmcs",
+        "web host automation platform",
+        "third party gateway module",
+        "gateway module",
+        "third party gateway",
+        "fasapay",
+        "fasapay payment gateway"
+    ],
+    "homepage": "https://www.fasapay.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FasaPay Development Team",
+            "email": "technical@fasapay.com",
+            "homepage": "https://www.fasapay.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@fasapay.com",
+        "forum": "https://multichat.pro/",
+    }
+}
