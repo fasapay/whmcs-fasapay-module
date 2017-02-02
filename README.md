@@ -17,7 +17,7 @@ platform. Currently only support __USD__ as currency.
 
 ## SCI Store Setting ##
 This Module required you to create Store at FasaPay Member Area > SCI > Store
-[FasaPay Store Setting](https://www.fasapay.com/member/sci/store)
+[FasaPay Store Setting](https://www.fasapay.com/member/store)
 
 * fp_status_url
    http:://www.yourdomain.com/modules/gateways/callback/fasapay.php
